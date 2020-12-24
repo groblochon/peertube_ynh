@@ -68,6 +68,14 @@ Want to see in action?
 * x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/peertube%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/peertube/)
 * ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/peertube%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/peertube/)
 
+#### Live streaming
+
+You need to open 1935 port :
+
+    $ yunohost firewall allow Both 1935
+
+Configuration : https://docs.joinpeertube.org/use-create-upload-video?id=publish-a-live-in-peertube-gt-v3
+
 ## Links
 
  * Report a bug: https://github.com/YunoHost-Apps/peertube_ynh/issues
