@@ -63,6 +63,14 @@ En regardant une vidéo, vous aidez l'hébergeur à la diffuser en devenant vous
 * x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/peertube%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/peertube/)
 * ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/peertube%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/peertube/)
 
+#### Utiliser le streaming direct (live)
+
+Il faut ouvrir le port 1935 :
+
+    $ yunohost firewall allow Both 1935
+
+Configuration : https://docs.joinpeertube.org/use-create-upload-video?id=publish-a-live-in-peertube-gt-v3
+
 ## Liens
 
  * Signaler un bug : https://github.com/YunoHost-Apps/peertube_ynh/issues
