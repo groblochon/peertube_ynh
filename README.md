@@ -72,7 +72,7 @@ Want to see in action?
 
 You need to open 1935 port :
 
-    $ yunohost firewall allow Both 1935
+    $ yunohost firewall allow TCP 1935
 
 Configuration : https://docs.joinpeertube.org/use-create-upload-video?id=publish-a-live-in-peertube-gt-v3
 

@@ -67,7 +67,7 @@ En regardant une vidéo, vous aidez l'hébergeur à la diffuser en devenant vous
 
 Il faut ouvrir le port 1935 :
 
-    $ yunohost firewall allow Both 1935
+    $ yunohost firewall allow TCP 1935
 
 Configuration : https://docs.joinpeertube.org/use-create-upload-video?id=publish-a-live-in-peertube-gt-v3
 
